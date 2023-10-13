@@ -1,0 +1,16 @@
+body, html
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mesh
+{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
