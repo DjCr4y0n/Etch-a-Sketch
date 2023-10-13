@@ -10,7 +10,9 @@ body, html
 
 .mesh
 {
-    background-color: black;
-    height: 100px;
-    width: 100px;
+    display: flex;
+    border: 5px solid black;
+    height: 384px;
+    width: 384px;
+    flex-wrap: wrap;
 }
