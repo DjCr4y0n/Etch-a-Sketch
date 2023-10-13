@@ -1,9 +1,10 @@
 var mesh = document.querySelector('.mesh');
 
 
-for (i=0;i<16;i++)
+for (i=0;i<100;i++)
 {
     let grid = document.createElement('div');
+    grid.style.flex = "initial";
     grid.className = 'grid';
     grid.style.width = "96px";
     grid.style.height = "96px";

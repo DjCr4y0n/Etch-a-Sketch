@@ -1,18 +1,42 @@
-body, html
+body
 {
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     justify-content: center;
+    margin: 0px;
+}
+
+#header
+{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    background-color: blue;
+    height: 50px;
+}
+
+#main
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.tools
+{
+    display: flex;
+    flex: 1;
 }
 
 
 .mesh
 {
+    width: 960px;
     display: flex;
     border: 5px solid black;
-    height: 384px;
-    width: 384px;
+    height: 960px;
     flex-wrap: wrap;
 }
