@@ -6,6 +6,7 @@ body
     width: 100%;
     justify-content: center;
     margin: 0px;
+    background-color: aqua;
 }
 
 #header
@@ -23,6 +24,8 @@ body
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    padding: 10px;
+    background-color: aqua;
 }
 
 .tools
@@ -31,12 +34,36 @@ body
     flex: 1;
 }
 
+.squaresAmount
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.squaresAmountText
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.squaresAmountText p 
+{
+    margin: 0;
+}
+
+
+#amount
+{
+    width: 200px;
+    height: 20px;
+}
 
 .mesh
 {
-    width: 960px;
+    width: 900px;
     display: flex;
     border: 5px solid black;
-    height: 960px;
+    height: 900px;
     flex-wrap: wrap;
 }
