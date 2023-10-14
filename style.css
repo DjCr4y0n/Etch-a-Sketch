@@ -31,25 +31,21 @@ body
 .tools
 {
     display: flex;
-    flex: 1;
-}
-
-.squaresAmount
-{
-    display: flex;
-    flex-direction: row;
-    gap: 10px
-}
-
-.squaresAmountText
-{
-    display: flex;
     flex-direction: column;
+    flex: 1;
+    align-items: center;
 }
 
-.squaresAmountText p 
+.tools button
 {
-    margin: 0;
+    height: 80px;
+    width: 80px;
+}
+
+.squaresAmountText 
+{
+    font-size: 50px;
+    font-style: italic;
 }
 
 
